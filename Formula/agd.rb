@@ -1,25 +1,25 @@
 class Agd < Formula
-  desc "Local-first CLI and stdio MCP server for org-mode files"
+  desc "An org-agenda for the terminal and for coding agents"
   homepage "https://github.com/johnnybravo-xyz/agd"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.1.0/agd-aarch64-apple-darwin.tar.xz"
-      sha256 "022afeb6828564a7d5ab36750c260eb2930a46ce8dd97d583c6801f0ee27fe2d"
+      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.2.0/agd-aarch64-apple-darwin.tar.xz"
+      sha256 "e8c8bd43dd3bbdccadde5c4fb5ff07ad55e1c590a6b0d556eb29d53c69267b78"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.1.0/agd-x86_64-apple-darwin.tar.xz"
-      sha256 "73e78b8171d94a1c73bc9e7c642826e2ded1275025d34257d8414415bab01980"
+      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.2.0/agd-x86_64-apple-darwin.tar.xz"
+      sha256 "e4db71c4829775c95f4a98ce50e1cca5bcd5528fa4e83910971a9c7ba0176c3f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.1.0/agd-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3a00c8e99b6828725d8c2ab03b818c5ddccaa9c00b2e6920dc0ff861c5b29425"
+      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.2.0/agd-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f31de07c5370462ad0ad8a823ca78a9146f82241bffb81c774e8dc579f2a8504"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.1.0/agd-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d1a2b1a2781a943ca8fc87a4173776c69478e6fefc9389ac1490cb370798e88c"
+      url "https://github.com/johnnybravo-xyz/agd/releases/download/v0.2.0/agd-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f92bd59c82fe39316ab9c113d714bd8c7eee821e99e6b935a39606325dd27ec2"
     end
   end
   license "GPL-3.0-or-later"
